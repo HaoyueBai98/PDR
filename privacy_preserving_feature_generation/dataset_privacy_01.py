@@ -9,7 +9,7 @@ from transformers import BartTokenizer
 
 from Record_privacy_01 import TransformationRecordList
 from feature_env_privacy_01 import TransformationFeatureEvaluator
-from lstm.gen_config import init_config
+from gen_config import init_config
 
 pad_idx = 1
 eos_idx = 2
