@@ -8,7 +8,7 @@ import torch.nn.functional as F
 from transformers import BartTokenizer
 
 from feature_env import FeatureEvaluator
-from utils.datacollection.logger import info
+from logger import info
 import pdb
 import time
 class Encoder(nn.Module):
