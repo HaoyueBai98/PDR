@@ -3,8 +3,8 @@ import torch.nn as nn
 from transformers import BartTokenizer
 
 from feature_env_privacy_01 import FeatureEvaluator
-from lstm.decoder_privacy_01 import construct_decoder
-from lstm.encoder_privacy_01 import construct_encoder
+from decoder_privacy_01 import construct_decoder
+from encoder_privacy_01 import construct_encoder
 
 import os
 SOS_ID = 0
