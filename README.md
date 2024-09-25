@@ -1,4 +1,4 @@
-# anonymous
+# Anonymous Code 
 
 
 ## Step 1 Privacy-Aware Knowledge Acquisition
@@ -9,7 +9,7 @@ python privacy_aware_knowledge_acquisition/privacy_aware_knowledge_acquisition.p
 ```
 
 
-## Step 2 Privacy-Preserving Feature Generation
+## Step 2 Privacy-Preserving Feature Space Generation
 
 
 ```
