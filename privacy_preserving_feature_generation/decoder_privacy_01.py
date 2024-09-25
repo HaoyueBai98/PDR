@@ -7,7 +7,7 @@ from torch import Tensor, FloatTensor
 from transformers import BartTokenizer
 
 from feature_env import FeatureEvaluator
-from utils.datacollection.logger import info
+from logger import info
 
 SOS_ID = -1
 EOS_ID = -1
