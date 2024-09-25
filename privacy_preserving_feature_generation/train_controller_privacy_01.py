@@ -7,8 +7,8 @@ import pandas
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(BASE_DIR)
 
-from lstm.dataset_privacy_01 import DenoiseDataModule
-from utils.datacollection.logger import info, error
+from dataset_privacy_01 import DenoiseDataModule
+from logger import info, error
 import warnings
 from sklearn.metrics.pairwise import polynomial_kernel
 from sklearn.metrics.pairwise import rbf_kernel
@@ -28,7 +28,7 @@ from torch import Tensor
 from tqdm import tqdm
 from controller_privacy_01 import GAFS
 from feature_env_privacy_01 import base_path
-from lstm.utils_meter import AvgrageMeter, pairwise_accuracy, hamming_distance, count_parameters_in_MB
+from utils_meter import AvgrageMeter, pairwise_accuracy, hamming_distance, count_parameters_in_MB
 from Record_privacy_01 import SelectionRecord, TransformationRecord
 import wandb
 import pdb
