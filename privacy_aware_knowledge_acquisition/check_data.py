@@ -1,7 +1,7 @@
 import os
 import pandas
 
-from utils.datacollection.tools import downstream_task_new,test_task_new
+from tools import downstream_task_new,test_task_new
 from task_mapping import task_dict, base_path
 
 
