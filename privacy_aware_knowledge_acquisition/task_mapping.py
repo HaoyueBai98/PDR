@@ -67,10 +67,6 @@ config_map = {'airfoil': ('airfoil.json', 'airfoil_config.yml', True),
                                                                              'openml_637_config.yml', True),
               'default': ('search_space.json',
                           'config.yml', True)}
-yml_config = {'trial.default_script':
-                  '~/miniconda3/envs/nni/bin/python -u '
-                  '~/jupyter_base/RL-TKDE/_code/_script/GRFG_with_nni.py '
-    , 'maxTrialNum': 100, 'trialConcurrency': 25}
 
 # sensitive_name_loc = {"ap_omentum_ovary":'22'}
 # sensitive_num_loc = {"ap_omentum_ovary":2}
