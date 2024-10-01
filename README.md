@@ -1,4 +1,4 @@
-# Anonymous Code 
+# Code for Paper PRIVACY PRESERVING GENERATIVE FEATURE TRANSFORMATION 
 
 
 ## Step 1 Privacy-Aware Knowledge Acquisition
