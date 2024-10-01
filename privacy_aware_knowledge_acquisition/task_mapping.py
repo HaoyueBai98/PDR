@@ -33,7 +33,7 @@ task_measure = {'reg': 'rae', 'cls': 'f1', 'det': 'ROC AUC Score', 'rank':
     'auprc'}
 state_rep = {'mds', 'gcn', 'ae', 'mds+ae', 'mds+ae+gcn'}
 support_rl_method = {'dqn', 'ddqn', 'dueling_dqn', 'dueling_ddqn'}
-base_path = '/home/local/ASURITE/wying4/Bai_work_space/nips_code/data/'
+base_path = 'data/'
 config_map = {'airfoil': ('airfoil.json', 'airfoil_config.yml', True),
               'amazon_employee': ('amazon_employee.json', 'amazon_employee.yml',
                                   False), 'ap_omentum_ovary': ('ap.json', 'ap_config.yml', True),
