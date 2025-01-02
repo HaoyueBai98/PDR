@@ -1,4 +1,4 @@
-# Code for Paper PRIVACY PRESERVING GENERATIVE FEATURE TRANSFORMATION 
+# Code for Paper Privacy-Preserving Data Reprogramming
 
 
 ## Step 1 Privacy-Aware Knowledge Acquisition
