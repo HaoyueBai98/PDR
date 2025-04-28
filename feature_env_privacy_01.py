@@ -18,11 +18,11 @@ import tqdm
 from sklearn.model_selection import train_test_split
 
 from Record_privacy_01 import RecordList, TransformationRecordList, Record, TransformationRecord
-from utils.datacollection.Operation import show_ops_r, show_ops, converge, sep_token
-from utils.datacollection.logger import error, info
+from privacy_aware_knowledge_acquisition.Operation import show_ops_r, show_ops, converge, sep_token
+from privacy_aware_knowledge_acquisition.logger import error, info
 from utils.rlac_tools import test_task_new, downstream_task_new, downstream_task_by_method, \
     downstream_task_by_method_std, sensitive_test
-from utils.datacollection.tools import hsic
+from privacy_aware_knowledge_acquisition.tools import hsic
 import warnings
 import wandb
 
