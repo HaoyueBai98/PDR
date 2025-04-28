@@ -6,7 +6,7 @@ import torch
 import torch.nn.functional as F
 import numpy
 
-from utils.datacollection.Operation import eos_token, sep_token, op_post_seq, converge, show_ops, check_valid
+from privacy_aware_knowledge_acquisition.Operation import eos_token, sep_token, op_post_seq, converge, show_ops, check_valid
 
 
 class Record(object):
